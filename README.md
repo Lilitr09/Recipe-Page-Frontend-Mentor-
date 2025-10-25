@@ -26,8 +26,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Link](https://lilitr09.github.io/Responsive-Recipe-Page/)
+- [Solution URL]:(https://www.frontendmentor.io/solutions/responsive-recipe-page-using-html-css-and-bootstrap-WmVQNKzvh1)
+- [Live Site URL]:(https://lilitr09.github.io/Recipe-Page-Frontend-Mentor-/)
 
 ## My process
 
