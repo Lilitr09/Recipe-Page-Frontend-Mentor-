@@ -1,0 +1,118 @@
+/* Fonts */
+@font-face {
+    src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+    font-family: "Outfit";
+}
+@font-face {
+    src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+    font-family: "Young-Serif";
+}
+
+:root {
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+    --brown-800: hsl(14, 45%, 36%);
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    background-color: var(--stone-150);
+}
+
+main {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    max-width: 700px;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: "Outfit", sans-serif;
+    color: var(--stone-600);
+}
+
+img {
+    max-width: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+
+.overview {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+
+    & > #recipe {
+    font-family: "Young-Serif", system-ui, sans-serif;
+    color: var(--stone-900);
+    font-weight: 600;
+    font-size: 3rem;
+}
+}
+.subtitle {
+    font-family: "Young-Serif", system-ui, sans-serif;
+    color: var(--brown-800);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.preparation-time {
+    background-color: var(--rose-50);
+    padding: 20px;
+    border-radius: 20px;
+    line-height: 30px;
+
+    h2 {
+        font-size: 1.5rem;
+        color: var(--rose-800);
+        font-weight: 700;
+    }
+}
+.ingredients, .instructions, .nutrition {
+    padding: 20px;
+    line-height: 30px;
+}
+.table .tipo {
+    color: var(--stone-600);
+}
+.table .cantidad {
+    color: var(--brown-800);
+    font-weight: 700;
+}
+ol li::marker {
+    color: var(--brown-800);
+    font-weight: 600;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 0;
+        margin: 0;
+    }
+    img {
+        border-radius: 0;
+    }
+    .overview {
+        padding: 25px;
+        margin-top: 10px;
+    }
+}
+
+
+
+
